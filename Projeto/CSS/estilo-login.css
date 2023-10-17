@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+:root{
+    --var1: 'Poppins' ;
+}
+*{
+    margin: 0;
+}
+body{
+    background-color:#d9d9d9;
+}
+header{
+    padding: 20px ;
+}
+.container{
+    max-width: 2009px;
+    margin: auto;
+}
+.flex{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.logo{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+} 
+.main-login{
+    width: 100vw;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.login{ 
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px ;
+    border-radius: 30px; 
+}
+.textfield{
+    flex-direction: column;
+    align-items: flex-start;
+margin: 10px;
+}
+.textfield input{ 
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    outline: none;
+    background-color: #D9D9D9;
+    box-shadow: 0 10px 40px black;
+}
+.textfield input::placeholder{
+    
+    color: black;
+    font-family: var(--var1);
+}
+.login h1{
+    font-family: var(--var1);
+    letter-spacing: 3px;
+}
+.button{
+    width: 100px;
+    padding: 10px 0px;
+    margin: 25px;
+    border-radius: 15px;
+    outline: none; 
+    box-shadow: 0 10px 40px black;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: var(--var1);
+    letter-spacing: 1px;
+}
+.button:hover{
+    transition: .2s;
+}
+
+
+

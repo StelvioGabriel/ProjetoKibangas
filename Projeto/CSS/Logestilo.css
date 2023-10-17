@@ -1,0 +1,172 @@
+
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/phone.css');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+  :root {
+    --var1: 'Poppins' ; 
+    --var : '#0C72B7';
+  }
+  
+
+*{
+    margin: 0 ;
+  
+}
+body{ background-color: #0C72B7 ;
+ 
+}
+header{
+    background-color: #d9d9d9;
+    
+}
+.container{
+    max-width: 2009px;
+    margin: auto;
+}
+.flex{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header ul {
+    list-style-type: none;
+
+}
+header ul li{
+    display: inline-block;
+} 
+header ul li a {
+    font-family: 'Poppins';
+    color: #31368D;
+    text-decoration: none; 
+    margin: 0px 10px;
+    padding: 10px ;
+
+}
+header ul li a:hover{ 
+    background-color: #31368D;
+    color: #d9d9d9; 
+    border-radius: 10px;
+    transition: .5s;
+
+}
+
+   
+.contacto{ font-family: var(--var1);
+    
+}
+.contacto a {
+    text-decoration: none;
+    color: #31368D;
+    
+}
+.contacto a:hover{ 
+   color:#d9d9d9 ;
+   background-color: #31368D;
+    transition: .3s; 
+    border-radius: 10px; 
+    text-decoration: none; 
+    padding: 7px;
+}
+.logo{
+    border-radius: 20px;
+    width: px;
+    height: 50px;
+    margin: 0 20px;
+} 
+.main{ 
+    font-family: var(--var1);
+   padding: 30px 0px;
+    text-align: center; 
+    background-color: #0C72B7;
+  width: 50%;  
+} 
+.main label{
+    color: #d9d9d9;
+    text-align: justify;
+}
+.mae{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+footer{
+    font-family: var(--var1);
+    color: #d9d9d9;
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.form-select{
+    width: 10px;
+    
+}
+
+.cursos h1{ 
+    font-weight: bolder ;
+    color: black;
+
+}
+.cursos ul {
+    list-style-type: none;
+}
+.cursos ul li {
+    min-width: 0 100px;
+    margin: 10px 2px;
+ padding: 10px 0px;
+ border: solid 1px black;
+ border-radius: 20px;
+    
+}
+.cursos ul li:hover{
+    background-color: #71BEEF;
+} 
+
+.cursos ul li a {
+    color: white;
+    text-decoration: none;
+}
+.conteudo{
+    font-family: var(--var1);
+   padding: 10px 0px;
+    text-align: center; 
+    background-color: #0C72B7;
+  width: 50%;  
+    
+  
+    
+}
+.principal ul {
+    list-style-type: none;
+}
+.principal ul li{
+    color: #d9d9d9;
+}
+.main2{
+    font-family: var(--var1);
+ 
+     text-align: justify; 
+     background-color: #0C72B7;
+     margin: 0px 50px;
+     background-color: #71BEEF;
+     border-radius: 20px;
+     padding: 0px 10px;
+   
+    
+   
+}
+.main2 h1{
+    text-align: center;
+
+}
+.main2 label{
+    color: w;
+}
+.rodape{
+    margin: 0px -57px;
+    padding: 30px 0px;
+}
+   
